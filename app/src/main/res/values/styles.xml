@@ -1,0 +1,22 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+	<!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+	-->
+	<!-- Application theme. -->
+	<style name="AppTheme" parent="android:Theme.Holo">
+	    <!-- Main theme colors -->
+        <!--   your app branding color for the app bar -->
+        <!-- <item name="android:background">@color/green1</item> -->
+	    <item name="android:windowBackground">@drawable/ogrito</item>
+	</style>
+    <style name="FrameGrid" parent="AppTheme">
+        <!--<item name="android:background">@color/green_fart</item>-->
+    </style>
+    <style name="GreenText" parent="@android:style/TextAppearance">
+        <item name="android:textStyle">italic</item>
+        <item name="android:textColor">#00FF00</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+    
+</resources>
